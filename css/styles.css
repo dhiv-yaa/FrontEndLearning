@@ -1,0 +1,114 @@
+header{
+    color:darkslategray;
+    background-color:blanchedalmond;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 16px;
+    font-weight: 200px;
+    padding-block: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: static;
+}
+
+body{
+    background-color:azure;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    font-weight:200px;
+}
+
+.education{
+    color:darkslategrey;
+    background-color: darkseagreen;
+    font-size: 14px;
+    padding-block: 8px;
+}
+
+.projects{
+    color:black;
+    background-color:thistle;
+    font-size: 14px;
+    padding-block: 8px;
+}
+
+h4{
+    color:blue;
+}
+
+h3.education {
+    color:blue;
+}
+
+h3.projects{
+    color: blue;
+}
+
+section{
+    color:purple;
+    background-color:lavender;
+    font-size: 14px;
+    padding-block: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.skills{
+    padding-block: 8px;
+    display:block;
+    background-color: darkseagreen;
+}
+
+.introduction{
+    padding-block: 8px;
+    display:block;
+    background-color: darkseagreen;
+}
+
+.education + ul li {
+    color: teal;
+    font-weight: bold;
+}
+
+.projects + ul li {
+    color: darkred;
+    font-style: italic;
+}
+
+.skills + ul li {
+    color: darkorange;
+}
+
+.navbar {
+  position: fixed;        
+  top: 0;                 
+  left: 0;                
+  width: 100%;            
+  background-color:darkslategrey;
+  color: beige;
+  padding: 8px;
+  display: flex;          
+  gap: 0px 10px;                       
+}
+
+.nav-links a {
+  color: beige;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color:aqua;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+  }
+}
